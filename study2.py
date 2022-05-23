@@ -1,8 +1,8 @@
-#First Duplicate
+#Array
 from array import *
 
 a = array('i',[1,2,3,4])
-print(a)
+'''print(a)
 for i in a:
     print(i)
 
@@ -14,5 +14,12 @@ print(a)
 a.pop()
 print(a)
 a[2:3] = array('i',[1])
-print(a)
+print(a)'''
+
+for i in range(len(a)):
+    a[i] = a[i]
+
+
+
+
 
